@@ -1,0 +1,78 @@
+/*LINK*/
+    a {
+        text-decoration: none;
+        color: #ff0000;
+    }
+    
+    a:hover {
+        color: #ffff00;
+        text-decoration: underline;
+    } 
+
+    a:visited {
+        color: #00ff00;
+      }
+/*HEADER*/
+      header {
+        color: palevioletred;
+        background-color: royalblue;
+        font-style: italic;
+      }
+
+/*NAV*/
+      nav {
+        background-color: black;
+      }
+
+/*MAIN*/
+      main {
+        background-color: darkmagenta;
+        color: aqua;
+      }
+
+/*FOOTER*/
+       footer {
+        background-color: burlywood;
+        color: sienna;
+       }
+
+/*CLASSES*/
+       .ClassLevel {
+        font-style: oblique;
+        color: pink;
+       }
+
+       .List {
+        font-style: italic;
+        font-weight: bold;
+        color: yellowgreen;
+       }
+/*IDS*/
+       #Two {
+        color: aquamarine;
+       }
+
+       #Three {
+        color: lime;
+       }
+
+       #Disclaimer {
+        color: #ff0000;
+       }
+
+/*H SECTION*/
+    h1 {
+        color: deeppink;
+    }
+
+    h2 {
+        color: darkorchid;
+    }
+
+    h3 {
+        color: deepskyblue;
+    }
+
+    h4 {
+        color: fuchsia;
+    }
