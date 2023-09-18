@@ -1,0 +1,61 @@
+
+#Poison {
+    background-color: #9daefa;
+}
+
+h1 {
+    color: white;
+}
+    a {
+        text-decoration: none;
+    }
+
+    a:link {
+        color: green;
+    }
+    
+    a:hover {
+        color: red;
+        text-decoration: underline;
+    }  
+
+    
+
+h2 {
+    color: blue;
+  }
+
+#Orange {
+    color: orange;
+    font-weight: bold;
+}
+
+h3 {
+    background-color: yellow;
+}
+
+#Red {
+    color: red;
+}
+
+h4 {
+    background-color: green;
+    color: yellow;
+}
+
+#Mint {
+    background-color: mediumspringgreen;
+}
+
+#Daughter {
+    background-color: yellow;
+}
+
+h5 {
+    color: red;
+}
+
+#Navy {
+    color: blue;
+    font-weight: bold;
+}
