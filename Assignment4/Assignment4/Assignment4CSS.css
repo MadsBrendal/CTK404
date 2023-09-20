@@ -1,0 +1,106 @@
+/*ALL*/
+/*NEW*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*LINK*/
+    a {
+        text-decoration: none;
+        color: #ff0000;
+    }
+    
+    a:hover {
+        color: #ffff00;
+        text-decoration: underline;
+    } 
+
+    a:visited {
+        color: #00ff00;
+      }
+
+/*HEADER*/
+      header {
+        color: palevioletred;
+        background-color: royalblue;
+        font-style: italic;
+      }
+
+/*IMAGES*/
+/*NEW*/
+      img {
+        border: 10px solid #000000;
+        padding: 10px 10px 10px 10px;
+        margin: 20px 20px 20px 20px;
+        background-color: yellow;
+      }
+
+/*NAV*/
+      nav {
+        background-color: black;
+      }
+
+/*MAIN*/
+      main {
+        background-color: darkmagenta;
+        color: aqua;
+      }
+
+/*FOOTER*/
+       footer {
+        background-color: burlywood;
+        color: sienna;
+       }
+
+/*CLASSES*/
+       /*NEW*/.Orange {
+        font-style: italic;
+        font-weight: normal;
+        color: orange;
+       }
+
+       /*NEW*/.Center {
+        text-align: center;
+       }
+
+        /*NEW*/.Justify {
+        text-align: justify;
+        }
+
+       .List {
+        font-style: italic;
+        font-weight: bold;
+        color: yellowgreen;
+       }
+/*IDS*/
+       #Two {
+        color: aquamarine;
+       }
+
+       #Three {
+        color: lime;
+       }
+
+       #Disclaimer {
+        color: #ff0000;
+       }
+
+/*H SECTION
+    h1 {
+        color: deeppink;
+    }
+
+    h2 {
+        color: darkorchid;
+    }
+
+    h3 {
+        color: deepskyblue;
+    }
+
+    h4 {
+        color: fuchsia;
+    }*/
