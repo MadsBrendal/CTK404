@@ -1,0 +1,108 @@
+/*OVERALL*/
+* {
+    background-image: url(a5bg.png);
+    background-size: auto;
+}
+
+/*HEADERS*/
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    background-image: none;
+    background-color: white;
+    padding: 22px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: none;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+
+/*LINKS OUTSIDE NAV*/
+ #White a { 
+    text-decoration: none;
+    color: blue;
+  }
+
+  #White a:hover { 
+    text-decoration: underline;
+    color: red;
+  }
+
+  #White a:visited { 
+    text-decoration: none;
+    color: blue;
+  }
+
+/*NAV*/
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+  }
+  
+  nav li {
+    background-color: darkblue;
+    padding: 0px;
+    margin: 7px;
+    width: 150px;
+    text-align: left;
+    display: inline-block;
+    background-image: none;
+  }
+
+  nav li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    background-image: none;
+  }
+
+ nav li a:hover {
+    background-color: lightblue;
+    text-decoration: none;
+  }
+
+/*PARAGRAPHS*/
+  .Justified {
+    text-align: justify;
+    background-image: none;
+    background-color: white;
+  }
+
+/*FOOTER*/
+  footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    background-image: none;
+    background-color: darkblue;
+    border: 3px solid white;
+    color: white;
+    padding: 30px;
+  }
+
+  #Footer {
+    background-image: none;
+  }
+
+/*DIV*/
+  #White {
+    background-image: none;
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 15px;
+  }
+
+  .White {
+    background-image: none;
+    background-color: white;
+    font-weight: bold;
+  }
