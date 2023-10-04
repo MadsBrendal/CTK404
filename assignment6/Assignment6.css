@@ -1,0 +1,191 @@
+/*OVERALL*/
+* {
+    background-image: url(a62.png);
+    background-size: auto;
+}
+
+#Wrapper {
+    margin: 1em auto;
+    /*padding: 10px;*/
+    width: 960px;
+    border: 3px solid black;
+    background-image: none;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+/*GRID*/
+
+
+
+
+/*HEADERS*/
+
+header{
+    background-image: none;
+    background-color: black;
+    grid-column: span 4;
+    margin: 10px;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    background-image: none;
+    background-color: black;
+    padding: 7px;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background-image: none;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+
+/*BODY*/
+
+/*body {
+    background-color: white;
+    background-image: none;
+    border: 2px solid black;
+}*/
+
+/*I am keeping anything I comment out in here just for my own learning curve, feel free to ignore them.*/
+
+/*LINKS OUTSIDE NAV*/
+  .Info a { 
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    background-image: none;
+    background-color: white;
+  }
+
+  .Info a:hover { 
+    text-decoration: underline;
+    color: blue;
+    background-image: none;
+    background-color: white;
+  }
+
+  .Info a:visited { 
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+    background-image: none;
+    background-color: white;
+  }
+
+/*PARAGRAPHS*/
+  .Bold p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+    background-image: none;
+    background-color: white;
+  }
+
+  .Info p {
+    background-image: none;
+    background-color: white;
+    padding: 3px;
+  }
+
+/*DIVS*/
+  .Info {
+    background-image: none;
+    background-color: white;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin: 10px;
+  }
+
+  .Nonbold {
+    background-image: none;
+    background-color: white;
+  }
+
+  .Bold {
+    background-image: none;
+    background-color: white;
+  }
+
+/*FOOTER*/
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    grid-column: span 4;
+    background-image: none;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+    border-top: 3px solid black;
+  }
+
+footer p {
+    background-image: none;
+    background-color: red;
+}
+
+/*NAV*/
+
+nav {
+    grid-column: span 1;
+    background-image: none;
+    background-color: white;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    background-image: none;
+    background-color: white;
+  }
+  
+  nav li {
+    background-color: red;
+    padding: 5px;
+    margin-top: 10px;
+    width: 210px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background-image: none;
+  }
+
+  nav li a {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    background-image: none;
+  }
+
+ nav li a:hover {
+    background-color: darkred;
+    text-decoration: none;
+  }
+
+  /*BRICKS*/
+  .Bricks {
+    float: left;
+    padding: 8px;
+    margin-right: 5px;
+    border: 3px solid black;
+    background-color: white;
+    background-image: none;
+   }
+
+   .Bricks img {
+    scale: 100;
+   }
