@@ -1,0 +1,786 @@
+/*OVERALL*/
+* {
+font-family: Monaco, sans-serif;
+}
+
+* a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+/*GRIDS*/
+
+#WrapperHeader {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(19, 1fr);
+  }
+
+#WrapperBody {
+   /* background-image: url("Web Background-03.png");*/
+    position:fixed;
+    z-index: -1;
+    margin-top: 5em;
+  }
+
+  #WrapperBody img{
+     width: 100vw;
+   }
+
+  #WrapperContent {
+    margin-left: 101px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 1fr, 8fr;
+    height: 100vh;
+  }
+
+  #WrapperContent h2{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    padding-left: 50px;
+    margin-top: 0px;
+    font-size: 30pt;
+    max-height: 100px;
+  }
+
+  #WrapperContent p{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    padding-left: 50px;
+    margin-top: 4em;
+  }
+
+  /*CHARACTER DESIGN PAGE*/
+
+  #WrapperContentCharacter {
+    margin-left: 101px;
+    display: grid;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: 1fr, 8fr;
+    height: 100vh;
+  }
+
+  #WrapperContentCharacter h2{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    padding-left: 50px;
+    margin-top: 0px;
+    font-size: 30pt;
+    max-height: 100px;
+  }
+
+  #WrapperContentCharacter p{
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    padding-left: 50px;
+    margin-top: 0em;
+  }
+
+/*HEADERS*/
+
+header {
+    background-image: url("Web Background-02.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100vw;
+    margin: 0px;
+    position: fixed;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 100;
+    color: #2C363F;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 a {    
+    text-decoration: none;
+    color: #2C363F;
+}
+
+h2 {
+    font-weight: 100;
+    color: #EF7171;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-left: 50px;
+}
+
+
+/*DIVS*/
+  #Headshot {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+  }
+
+  #Headshot img {
+    max-width: 370px;
+    scale: auto;
+  }
+
+  #Minime {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+  }
+
+  #Minime img {
+    max-width: 370px;
+    scale: auto;
+  }
+
+  #MinimeDESC {
+    padding-left: 50px;
+    padding-top: 200px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+  }
+
+/*CHARACTER DESIGN*/
+
+  /*LEONARA*/
+
+  #Leonara {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Leonara img {
+    max-width: 370px;
+    scale: auto;
+  }
+
+  #LeonaraDESC {
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /*BLUEBIRD*/
+
+  #Bluebird1 {
+    padding-top: 120px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Bluebird1 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #Bluebird1DESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-top: 120px;
+    /* grid-row-start: 2; */
+  }
+
+/*BLUEBIRD 2*/
+
+  #Bluebird2 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Bluebird2 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 70em; */
+  }
+
+ #Bluebird2DESC {
+    /* padding-top: 70em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /*CANARY*/
+
+  #Canary {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Canary img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 95em; */
+  }
+
+ #CanaryDESC {
+    /* padding-top: 95em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /*FLAMINGO*/
+
+  #Flamingo {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Flamingo img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 130em; */
+  }
+
+ #FlamingoDESC {
+    /* padding-top: 130em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+   /*HUMMINGBIRD*/
+
+   #Hummingbird {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Hummingbird img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #HummingbirdDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* SABREWING */
+
+  #Sabrewing {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Sabrewing img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #SabrewingDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+    /* DISCORDIA */
+
+    #Discordia {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        /* grid-row-start: 2; */
+      }
+    
+      #Discordia img {
+        max-width: 370px;
+        scale: auto;
+        /* padding-top: 160em; */
+      }
+    
+     #DiscordiaDESC {
+        /* padding-top: 160em; */
+        padding-left: 50px;
+        max-height: 100px;
+        grid-column-start: 6;
+        grid-column-end: 13;
+        /* grid-row-start: 2; */
+      }
+ 
+
+      /* GRAPHIC DESIGN */
+
+        /*CIRCUS*/
+
+  #Circus {
+    padding-top: 120px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Circus img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #CircusDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-top: 120px;
+    /* grid-row-start: 2; */
+  }
+
+  /* HP PROJECT */
+
+  #HP1 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #HP1 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+  #HP2 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #HP2 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+  #HP3 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #HP3 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #HPDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* TYPOGRAPHY */
+
+  #SPoster {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #SPoster img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #SPosterDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* POKEMON */
+
+  #Type {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Type img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #TypeDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  #TypeDESC a {
+    text-decoration: none;
+    color: #EF7171;
+  }
+
+  #TypeDESC a:visited {
+    text-decoration: none;
+    color: #EF7171;
+  }
+
+  #TypeDESC a:hover {
+    text-decoration: none;
+    color: #2C363F;
+  }
+
+/* STICKER PROJECT */
+
+  #Sticker12 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Sticker12 img {
+    max-width: 185px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+  #Sticker34 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Sticker34 img {
+    max-width: 185px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+  #Sticker56 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Sticker56 img {
+    max-width: 185px;
+    scale: auto;
+    /* padding-top: 160em; */
+  }
+
+ #StickerDESC {
+    /* padding-top: 160em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* EXPANDED MEDIA */
+
+  /* SNAKE */
+
+  #Snake {
+    padding-top: 120px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Snake img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #SnakeDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-top: 120px;
+    /* grid-row-start: 2; */
+  }
+
+  /* MIMIC */
+
+  #Mimic {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Mimic img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #MimicDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* PERSONAL PROJECTS */
+
+  /* FAIRY GLOBE */
+
+  #Fairy {
+    padding-top: 120px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Fairy img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #FairyDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-top: 120px;
+    /* grid-row-start: 2; */
+  }
+
+  /* DOLL */
+
+  #Doll {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Doll img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #DollDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* TAROT WINX */
+
+  #Tarot {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Tarot img {
+    max-width: 185px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #TarotDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+  /* POISON TYPE */
+
+  #Poison {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Poison img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #PoisonDESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+
+  #Bluebird4 {
+    padding-top: 120px;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Bluebird4 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #Bluebird4DESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    padding-top: 120px;
+    /* grid-row-start: 2; */
+  }
+
+  /* MIMIC */
+
+  #Bluebird3 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    /* grid-row-start: 2; */
+  }
+
+  #Bluebird3 img {
+    max-width: 370px;
+    scale: auto;
+    /* padding-top: 50em; */
+  }
+
+ #Bluebird3DESC {
+    /* padding-top: 50em; */
+    padding-left: 50px;
+    max-height: 100px;
+    grid-column-start: 6;
+    grid-column-end: 13;
+    /* grid-row-start: 2; */
+  }
+
+/*FOOTER*/
+
+
+/*NAV*/
+
+/*nav {
+    float: right;
+    margin: 0px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 41px;
+    left: 382px;
+}*/
+
+nav {
+    grid-column-start: 5;
+    grid-column-end: 20;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    display: inline-block;
+  }
+  
+ /* nav li {
+    width: 179px;
+    height: 68px;
+    text-align: left;
+    display: inline-block;
+    background-image: linear-gradient(to right, #FFA7A7, #EF7171, #EF7171, #EF7171, #EF7171 );
+    margin-right: 58px;
+    padding-left: 23px;
+    padding-top: 15px;
+  }
+  */
+
+  nav li {
+    text-align: left;
+    display: inline-block;
+    background-image: linear-gradient(to right, #FFA7A7, #EF7171, #EF7171, #EF7171, #EF7171 );
+    margin-top: 1.5em;
+    margin-left: 1em;
+  }
+
+  nav li a {
+    color: #2C363F;
+    display: inline-block;
+    text-decoration: none;
+    background-image: none;
+    padding: 1em;
+    padding-right: 2em;
+    transition: ease .5s;
+  }
+
+  nav li a:hover {
+    transition: ease .5s;
+    color: white;
+  }
+
+  /*IMAGES*/
+  #Logo {
+    grid-column-start: 2;
+    grid-column-end: 4;
+   }
+  #Logo img{
+    width: 100%;
+   }
+
+   /*OTHER*/
+
+   #About2 {
+   padding-top: 8em;
+   }
